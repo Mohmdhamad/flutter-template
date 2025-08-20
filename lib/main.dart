@@ -7,5 +7,3 @@ void main(){
   Bloc.observer = MyBlocObserver();
   runApp(MyApp());
 }
-
-
