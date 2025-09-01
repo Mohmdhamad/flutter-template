@@ -17,7 +17,7 @@ class TextStyles {
   }
 
   static TextStyle subtitle({
-    Color color = AppColors.textSecondary,
+    Color color = AppColors.hintText,
     double fontSize = 16.0,
     FontWeight fontWeight = FontWeight.w600,
   }) {
@@ -31,7 +31,7 @@ class TextStyles {
 
   // -------- Body --------
   static TextStyle body({
-    Color color = AppColors.textSecondary,
+    Color color = AppColors.hintText,
     double fontSize = 15.0,
     FontWeight fontWeight = FontWeight.w400,
   }) {
@@ -59,7 +59,7 @@ class TextStyles {
 
   // -------- Buttons --------
   static TextStyle button({
-    Color color = AppColors.textLight,
+    Color color = AppColors.white,
     double fontSize = 16.0,
     FontWeight fontWeight = FontWeight.w600,
   }) {
